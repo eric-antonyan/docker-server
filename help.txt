@@ -6,3 +6,11 @@ ________________________________________________________________________________
 
 (venv) ==========> docker build -t container_name path
 (venv) ====> docker run -d -p 5000:5000 container_name
+
+=========== for the publish current repository ===========
+
+1) generate full key using command ======== (gpg --full-generate-key)
+2) get your gpg id using command ========== (gpg --list-keys)
+3) login your docker account with gpg id == (pass init gpg_id)
+
+# THE END, process successfully ended!
