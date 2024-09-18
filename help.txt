@@ -1,0 +1,8 @@
+docker ps
+_______________________________________________________________________________________________________________________________________
+CONTAINER ID  |  IMAGE   |  COMMAND                 |  CREATED        |  STATUS        |   PORTS                   |  NAMES            |
+04db976cdd19  |  flasks  |  "python -m flask run…"  |  7 seconds ago  |  Up 6 seconds  |   0.0.0.0:5000->5000/tcp  |  happy_cartwright |
+_______________________________________________________________________________________________________________________________________
+
+(venv) ==========> docker build -t container_name path
+(venv) ====> docker run -d -p 5000:5000 container_name
